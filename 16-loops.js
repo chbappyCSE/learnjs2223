@@ -39,3 +39,21 @@ for (let y of Nums) {
 
 // for -- init, condition, increment or decremtn
 // While loop -- condition jodi main hoy init and increment and drecement jodi optional joy thaole while loop.
+
+let texts = "";
+let i = 0;
+while (i < 10) {
+    texts += "<br>The number is " + i;
+    i++;
+}
+console.log(texts);
+
+// Do while loop
+let text = "";
+let j = 0;
+do {
+    text += j + "<br>";
+    j++;
+}
+while (j < 5);
+console.log(text);
