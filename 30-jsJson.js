@@ -11,10 +11,18 @@
 
 // JSON Example
 
-{
-    "employees": [
-        { "firstName": "John", "lastName": "Doe" },
-        { "firstName": "Anna", "lastName": "Smith" },
-        { "firstName": "Peter", "lastName": "Jones" }
-    ]
+let text = '{ "employees" : [' +
+    '{ "firstName":"John" , "lastName":"Doe" },' +
+    '{ "firstName":"Anna" , "lastName":"Smith" },' +
+    '{ "firstName":"Peter" , "lastName":"Jones" } ]}';
+let obj = JSON.parse(text); // convert json to valid js formate
+// console.log(obj.employees[0].firstName, obj.employees[0].lastName);
+console.log(obj);
+
+let person = {
+    firstName: "Ch",
+    lastName: "Bappy"
 }
+
+// Convert Object to JSON
+console.log(JSON.stringify(person));
