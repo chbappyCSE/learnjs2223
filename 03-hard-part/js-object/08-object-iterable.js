@@ -11,7 +11,7 @@ console.dir(numIterator);
 for (let n of nums) {
     console.log(nums[n]);
 }
-/* Amra jokhon for of loop use kori for of kivabe jabe je tar loop sesh?  */
+/* Amra jokhon for of loop use kori for of kivabe jane je tar loop sesh?  */
 
 console.log(numIterator.next());
 console.log(numIterator.next());
